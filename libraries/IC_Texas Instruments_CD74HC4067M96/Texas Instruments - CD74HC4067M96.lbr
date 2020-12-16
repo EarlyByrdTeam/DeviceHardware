@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="0" number="4" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="0" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="4" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="4" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="TEXAS_INSTRUMENTS_CD74HC4067M96_0">
+                    <description>High-speed CMOS 16-channel analog multiplexer/demultiplexer 24-SOIC -55 to 125</description>
+                    <wire layer="51" y2="7.8" width="0.15" x2="-3.8" y1="-7.8" x1="-3.8"/>
+                    <wire layer="51" y2="7.8" width="0.15" x2="3.8" y1="7.8" x1="-3.8"/>
+                    <wire layer="51" y2="-7.8" width="0.15" x2="3.8" y1="7.8" x1="3.8"/>
+                    <wire layer="51" y2="-7.8" width="0.15" x2="-3.8" y1="-7.8" x1="3.8"/>
+                    <wire layer="41" y2="7.975" width="0.1" x2="-5.8" y1="-7.975" x1="-5.8"/>
+                    <wire layer="41" y2="7.975" width="0.1" x2="5.8" y1="7.975" x1="-5.8"/>
+                    <wire layer="41" y2="-7.975" width="0.1" x2="5.8" y1="7.975" x1="5.8"/>
+                    <wire layer="41" y2="-7.975" width="0.1" x2="-5.8" y1="-7.975" x1="5.8"/>
+                    <wire layer="21" y2="7.8" width="0.15" x2="3.8" y1="7.8" x1="-3.8"/>
+                    <wire layer="21" y2="-7.66" width="0.15" x2="3.8" y1="-7.8" x1="3.8"/>
+                    <wire layer="21" y2="7.8" width="0.15" x2="3.8" y1="7.66" x1="3.8"/>
+                    <wire layer="21" y2="-7.8" width="0.15" x2="3.8" y1="-7.8" x1="-3.8"/>
+                    <wire layer="21" y2="-7.66" width="0.15" x2="-3.8" y1="-7.8" x1="-3.8"/>
+                    <wire layer="21" y2="7.8" width="0.15" x2="-3.8" y1="7.66" x1="-3.8"/>
+                    <text layer="25" align="bottom-left" y="8.1" x="-3.8" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="6.985" x="-6.575" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="2.0" dy="0.6" y="6.985" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="2.0" dy="0.6" y="5.715" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="2.0" dy="0.6" y="4.445" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="2.0" dy="0.6" y="3.175" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="2.0" dy="0.6" y="1.905" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="0" dx="2.0" dy="0.6" y="0.635" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-0.635" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-1.905" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-3.175" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-4.445" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-5.715" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-6.985" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-6.985" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-5.715" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-4.445" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-3.175" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-1.905" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="0" dx="2.0" dy="0.6" y="-0.635" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="0" dx="2.0" dy="0.6" y="0.635" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="0" dx="2.0" dy="0.6" y="1.905" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="0" dx="2.0" dy="0.6" y="3.175" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="0" dx="2.0" dy="0.6" y="4.445" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="0" dx="2.0" dy="0.6" y="5.715" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="0" dx="2.0" dy="0.6" y="6.985" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_25" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-6.985" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_26" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-5.715" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_27" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-4.445" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_28" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-3.175" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_29" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-1.905" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_30" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-0.635" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_31" stop="yes" roundness="0" dx="1.95" dy="0.55" y="0.635" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_32" stop="yes" roundness="0" dx="1.95" dy="0.55" y="1.905" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_33" stop="yes" roundness="0" dx="1.95" dy="0.55" y="3.175" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_34" stop="yes" roundness="0" dx="1.95" dy="0.55" y="4.445" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_35" stop="yes" roundness="0" dx="1.95" dy="0.55" y="5.715" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_36" stop="yes" roundness="0" dx="1.95" dy="0.55" y="6.985" x="4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_37" stop="yes" roundness="0" dx="1.95" dy="0.55" y="6.985" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_38" stop="yes" roundness="0" dx="1.95" dy="0.55" y="5.715" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_39" stop="yes" roundness="0" dx="1.95" dy="0.55" y="4.445" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_40" stop="yes" roundness="0" dx="1.95" dy="0.55" y="3.175" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_41" stop="yes" roundness="0" dx="1.95" dy="0.55" y="1.905" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_42" stop="yes" roundness="0" dx="1.95" dy="0.55" y="0.635" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_43" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-0.635" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_44" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-1.905" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_45" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-3.175" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_46" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-4.445" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_47" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-5.715" x="-4.7" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_48" stop="yes" roundness="0" dx="1.95" dy="0.55" y="-6.985" x="-4.7" rot="R0" cream="yes"/>
+                </package>
+                <package name="TEXAS_INSTRUMENTS_CD74HC4067M96_1">
+                    <description>High-speed CMOS 16-channel analog multiplexer/demultiplexer 24-SOIC -55 to 125</description>
+                    <wire layer="51" y2="7.7" width="0.15" x2="-3.75" y1="-7.7" x1="-3.75"/>
+                    <wire layer="51" y2="7.7" width="0.15" x2="3.75" y1="7.7" x1="-3.75"/>
+                    <wire layer="51" y2="-7.7" width="0.15" x2="3.75" y1="7.7" x1="3.75"/>
+                    <wire layer="51" y2="-7.7" width="0.15" x2="-3.75" y1="-7.7" x1="3.75"/>
+                    <wire layer="41" y2="8.2" width="0.1" x2="-6.367" y1="-8.2" x1="-6.367"/>
+                    <wire layer="41" y2="8.2" width="0.1" x2="6.367" y1="8.2" x1="-6.367"/>
+                    <wire layer="41" y2="-8.2" width="0.1" x2="6.367" y1="8.2" x1="6.367"/>
+                    <wire layer="41" y2="-8.2" width="0.1" x2="-6.367" y1="-8.2" x1="6.367"/>
+                    <wire layer="21" y2="7.7" width="0.15" x2="-2.764" y1="-7.7" x1="-2.764"/>
+                    <wire layer="21" y2="7.7" width="0.15" x2="2.764" y1="7.7" x1="-2.764"/>
+                    <wire layer="21" y2="-7.7" width="0.15" x2="2.764" y1="7.7" x1="2.764"/>
+                    <wire layer="21" y2="-7.7" width="0.15" x2="-2.764" y1="-7.7" x1="2.764"/>
+                    <text layer="25" align="bottom-left" y="8.9" x="-6.867" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="6.95" x="-2.014" layer="21" radius="0.5" width="0.0"/>
+                    <circle y="6.96" x="-6.917" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="2.603" dy="0.622" y="6.985" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="2.603" dy="0.622" y="5.715" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="2.603" dy="0.622" y="4.445" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="2.603" dy="0.622" y="3.175" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="2.603" dy="0.622" y="1.905" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="2.603" dy="0.622" y="0.635" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-0.635" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-1.905" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-3.175" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-4.445" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-5.715" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-6.985" x="-4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-6.985" x="4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-5.715" x="4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-4.445" x="4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-3.175" x="4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-1.905" x="4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="2.603" dy="0.622" y="-0.635" x="4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="2.603" dy="0.622" y="0.635" x="4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="2.603" dy="0.622" y="1.905" x="4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="2.603" dy="0.622" y="3.175" x="4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="2.603" dy="0.622" y="4.445" x="4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="2.603" dy="0.622" y="5.715" x="4.565" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="2.603" dy="0.622" y="6.985" x="4.565" rot="R0" cream="yes"/>
+                </package>
+                <package name="TEXAS_INSTRUMENTS_CD74HC4067M96_2">
+                    <description>High-speed CMOS 16-channel analog multiplexer/demultiplexer 24-SOIC -55 to 125</description>
+                    <wire layer="51" y2="7.7" width="0.15" x2="-3.75" y1="-7.7" x1="-3.75"/>
+                    <wire layer="51" y2="7.7" width="0.15" x2="3.75" y1="7.7" x1="-3.75"/>
+                    <wire layer="51" y2="-7.7" width="0.15" x2="3.75" y1="7.7" x1="3.75"/>
+                    <wire layer="51" y2="-7.7" width="0.15" x2="-3.75" y1="-7.7" x1="3.75"/>
+                    <wire layer="41" y2="7.95" width="0.1" x2="-5.917" y1="-7.95" x1="-5.917"/>
+                    <wire layer="41" y2="7.95" width="0.1" x2="5.917" y1="7.95" x1="-5.917"/>
+                    <wire layer="41" y2="-7.95" width="0.1" x2="5.917" y1="7.95" x1="5.917"/>
+                    <wire layer="41" y2="-7.95" width="0.1" x2="-5.917" y1="-7.95" x1="5.917"/>
+                    <wire layer="21" y2="7.7" width="0.15" x2="-2.864" y1="-7.7" x1="-2.864"/>
+                    <wire layer="21" y2="7.7" width="0.15" x2="2.864" y1="7.7" x1="-2.864"/>
+                    <wire layer="21" y2="-7.7" width="0.15" x2="2.864" y1="7.7" x1="2.864"/>
+                    <wire layer="21" y2="-7.7" width="0.15" x2="-2.864" y1="-7.7" x1="2.864"/>
+                    <text layer="25" align="bottom-left" y="8.4" x="-6.167" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="6.95" x="-2.114" layer="21" radius="0.5" width="0.0"/>
+                    <circle y="6.985" x="-6.417" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="2.303" dy="0.582" y="6.985" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="2.303" dy="0.582" y="5.715" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="2.303" dy="0.582" y="4.445" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="2.303" dy="0.582" y="3.175" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="2.303" dy="0.582" y="1.905" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="2.303" dy="0.582" y="0.635" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-0.635" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-1.905" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-3.175" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-4.445" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-5.715" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-6.985" x="-4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-6.985" x="4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-5.715" x="4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-4.445" x="4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-3.175" x="4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-1.905" x="4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="2.303" dy="0.582" y="-0.635" x="4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="2.303" dy="0.582" y="0.635" x="4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="2.303" dy="0.582" y="1.905" x="4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="2.303" dy="0.582" y="3.175" x="4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="2.303" dy="0.582" y="4.445" x="4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="2.303" dy="0.582" y="5.715" x="4.515" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="2.303" dy="0.582" y="6.985" x="4.515" rot="R0" cream="yes"/>
+                </package>
+                <package name="TEXAS_INSTRUMENTS_CD74HC4067M96_3">
+                    <description>High-speed CMOS 16-channel analog multiplexer/demultiplexer 24-SOIC -55 to 125</description>
+                    <wire layer="51" y2="7.7" width="0.15" x2="-3.75" y1="-7.7" x1="-3.75"/>
+                    <wire layer="51" y2="7.7" width="0.15" x2="3.75" y1="7.7" x1="-3.75"/>
+                    <wire layer="51" y2="-7.7" width="0.15" x2="3.75" y1="7.7" x1="3.75"/>
+                    <wire layer="51" y2="-7.7" width="0.15" x2="-3.75" y1="-7.7" x1="3.75"/>
+                    <wire layer="41" y2="7.8" width="0.1" x2="-5.567" y1="-7.8" x1="-5.567"/>
+                    <wire layer="41" y2="7.8" width="0.1" x2="5.567" y1="7.8" x1="-5.567"/>
+                    <wire layer="41" y2="-7.8" width="0.1" x2="5.567" y1="7.8" x1="5.567"/>
+                    <wire layer="41" y2="-7.8" width="0.1" x2="-5.567" y1="-7.8" x1="5.567"/>
+                    <wire layer="21" y2="7.7" width="0.15" x2="-2.964" y1="-7.7" x1="-2.964"/>
+                    <wire layer="21" y2="7.7" width="0.15" x2="2.964" y1="7.7" x1="-2.964"/>
+                    <wire layer="21" y2="-7.7" width="0.15" x2="2.964" y1="7.7" x1="2.964"/>
+                    <wire layer="21" y2="-7.7" width="0.15" x2="-2.964" y1="-7.7" x1="2.964"/>
+                    <text layer="25" align="bottom-left" y="8.1" x="-5.667" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="6.95" x="-2.214" layer="21" radius="0.5" width="0.0"/>
+                    <circle y="6.985" x="-6.242" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="2.003" dy="0.542" y="6.985" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="2.003" dy="0.542" y="5.715" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="2.003" dy="0.542" y="4.445" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="2.003" dy="0.542" y="3.175" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="2.003" dy="0.542" y="1.905" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="2.003" dy="0.542" y="0.635" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-0.635" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-1.905" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-3.175" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-4.445" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-5.715" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-6.985" x="-4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-6.985" x="4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-5.715" x="4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-4.445" x="4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-3.175" x="4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-1.905" x="4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="2.003" dy="0.542" y="-0.635" x="4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="2.003" dy="0.542" y="0.635" x="4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="2.003" dy="0.542" y="1.905" x="4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="2.003" dy="0.542" y="3.175" x="4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="2.003" dy="0.542" y="4.445" x="4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="2.003" dy="0.542" y="5.715" x="4.465" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="2.003" dy="0.542" y="6.985" x="4.465" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="TEXAS_INSTRUMENTS_CD74HC4067M96_0_0">
+                    <description>High-speed CMOS 16-channel analog multiplexer/demultiplexer 24-SOIC -55 to 125</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="2.54" y1="-81.28" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="50.8" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-81.28" width="0.254" x2="50.8" y1="-5.08" x1="50.8"/>
+                    <wire layer="94" y2="-81.28" width="0.254" x2="2.54" y1="-81.28" x1="50.8"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="2.54" y1="-7.62" x1="2.54"/>
+                    <wire layer="94" y2="-78.74" width="0.15" x2="2.54" y1="-78.74" x1="2.54"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="50.8" y1="-7.62" x1="50.8"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="2.54" y1="-17.78" x1="2.54"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="2.54" y1="-20.32" x1="2.54"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="2.54" y1="-22.86" x1="2.54"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="2.54" y1="-25.4" x1="2.54"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="2.54" y1="-27.94" x1="2.54"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="2.54" y1="-30.48" x1="2.54"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="2.54" y1="-33.02" x1="2.54"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="2.54" y1="-35.56" x1="2.54"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="2.54" y1="-38.1" x1="2.54"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="2.54" y1="-40.64" x1="2.54"/>
+                    <wire layer="94" y2="-43.18" width="0.15" x2="2.54" y1="-43.18" x1="2.54"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="2.54" y1="-45.72" x1="2.54"/>
+                    <wire layer="94" y2="-48.26" width="0.15" x2="2.54" y1="-48.26" x1="2.54"/>
+                    <wire layer="94" y2="-50.8" width="0.15" x2="2.54" y1="-50.8" x1="2.54"/>
+                    <wire layer="94" y2="-53.34" width="0.15" x2="2.54" y1="-53.34" x1="2.54"/>
+                    <wire layer="94" y2="-55.88" width="0.15" x2="2.54" y1="-55.88" x1="2.54"/>
+                    <wire layer="94" y2="-63.5" width="0.15" x2="2.54" y1="-63.5" x1="2.54"/>
+                    <wire layer="94" y2="-66.04" width="0.15" x2="2.54" y1="-66.04" x1="2.54"/>
+                    <wire layer="94" y2="-68.58" width="0.15" x2="2.54" y1="-68.58" x1="2.54"/>
+                    <wire layer="94" y2="-71.12" width="0.15" x2="2.54" y1="-71.12" x1="2.54"/>
+                    <wire layer="94" y2="-78.74" width="0.15" x2="50.8" y1="-78.74" x1="50.8"/>
+                    <text layer="95" align="top-left" y="-2.54" x="2.54" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-83.82" x="2.54" rot="R0" size="2.54">CD74HC4067M96</text>
+                    <pin direction="pwr" name="VCC" visible="both" length="middle" y="-7.62" x="-2.54"/>
+                    <pin direction="in" name="!E!" visible="both" length="middle" y="-78.74" x="-2.54"/>
+                    <pin direction="io" name="COMMON_INPUT/OUTPUT" visible="both" length="middle" y="-7.62" x="55.88" rot="R180"/>
+                    <pin direction="in" name="I0" visible="both" length="middle" y="-17.78" x="-2.54"/>
+                    <pin direction="in" name="I1" visible="both" length="middle" y="-20.32" x="-2.54"/>
+                    <pin direction="in" name="I2" visible="both" length="middle" y="-22.86" x="-2.54"/>
+                    <pin direction="in" name="I3" visible="both" length="middle" y="-25.4" x="-2.54"/>
+                    <pin direction="in" name="I4" visible="both" length="middle" y="-27.94" x="-2.54"/>
+                    <pin direction="in" name="I5" visible="both" length="middle" y="-30.48" x="-2.54"/>
+                    <pin direction="in" name="I6" visible="both" length="middle" y="-33.02" x="-2.54"/>
+                    <pin direction="in" name="I7" visible="both" length="middle" y="-35.56" x="-2.54"/>
+                    <pin direction="in" name="I8" visible="both" length="middle" y="-38.1" x="-2.54"/>
+                    <pin direction="in" name="I9" visible="both" length="middle" y="-40.64" x="-2.54"/>
+                    <pin direction="in" name="I10" visible="both" length="middle" y="-43.18" x="-2.54"/>
+                    <pin direction="in" name="I11" visible="both" length="middle" y="-45.72" x="-2.54"/>
+                    <pin direction="in" name="I12" visible="both" length="middle" y="-48.26" x="-2.54"/>
+                    <pin direction="in" name="I13" visible="both" length="middle" y="-50.8" x="-2.54"/>
+                    <pin direction="in" name="I14" visible="both" length="middle" y="-53.34" x="-2.54"/>
+                    <pin direction="in" name="I15" visible="both" length="middle" y="-55.88" x="-2.54"/>
+                    <pin direction="in" name="S0" visible="both" length="middle" y="-63.5" x="-2.54"/>
+                    <pin direction="in" name="S1" visible="both" length="middle" y="-66.04" x="-2.54"/>
+                    <pin direction="in" name="S2" visible="both" length="middle" y="-68.58" x="-2.54"/>
+                    <pin direction="in" name="S3" visible="both" length="middle" y="-71.12" x="-2.54"/>
+                    <pin direction="pwr" name="GND" visible="both" length="middle" y="-78.74" x="55.88" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="TEXAS_INSTRUMENTS_CD74HC4067M96">
+                    <description>High-speed CMOS 16-channel analog multiplexer/demultiplexer 24-SOIC -55 to 125</description>
+                    <gates>
+                        <gate name="G$0" symbol="TEXAS_INSTRUMENTS_CD74HC4067M96_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="TEXAS_INSTRUMENTS_CD74HC4067M96_0_0" package="TEXAS_INSTRUMENTS_CD74HC4067M96_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="COMMON_INPUT/OUTPUT"/>
+                                <connect gate="G$0" pad="2" pin="I7"/>
+                                <connect gate="G$0" pad="3" pin="I6"/>
+                                <connect gate="G$0" pad="4" pin="I5"/>
+                                <connect gate="G$0" pad="5" pin="I4"/>
+                                <connect gate="G$0" pad="6" pin="I3"/>
+                                <connect gate="G$0" pad="7" pin="I2"/>
+                                <connect gate="G$0" pad="8" pin="I1"/>
+                                <connect gate="G$0" pad="9" pin="I0"/>
+                                <connect gate="G$0" pad="10" pin="S0"/>
+                                <connect gate="G$0" pad="11" pin="S1"/>
+                                <connect gate="G$0" pad="12" pin="GND"/>
+                                <connect gate="G$0" pad="13" pin="S3"/>
+                                <connect gate="G$0" pad="14" pin="S2"/>
+                                <connect gate="G$0" pad="15" pin="!E!"/>
+                                <connect gate="G$0" pad="16" pin="I15"/>
+                                <connect gate="G$0" pad="17" pin="I14"/>
+                                <connect gate="G$0" pad="18" pin="I13"/>
+                                <connect gate="G$0" pad="19" pin="I12"/>
+                                <connect gate="G$0" pad="20" pin="I11"/>
+                                <connect gate="G$0" pad="21" pin="I10"/>
+                                <connect gate="G$0" pad="22" pin="I9"/>
+                                <connect gate="G$0" pad="23" pin="I8"/>
+                                <connect gate="G$0" pad="24" pin="VCC"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="Multiplexer Switch ICs Hi-Spd CMOS 16Ch Anl Mltplxr/Demltplxr"/>
+                                    <attribute name="ambient_temperature_range_low" value="-55°C"/>
+                                    <attribute name="mouser_part_number" value="595-CD74HC4067M96"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":30000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+125°C"/>
+                                    <attribute name="ambient_temperature_range_high" value="+125°C"/>
+                                    <attribute name="digikey_description" value="IC MUX/DEMUX 1X16 24SOIC"/>
+                                    <attribute name="device_class_L3" value="Multiplexers"/>
+                                    <attribute name="device_class_L1" value="Integrated Circuits (ICs)"/>
+                                    <attribute name="digikey_part_number" value="296-29408-1-ND"/>
+                                    <attribute name="max_supply_voltage" value="6V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="propagation_delay" value="6ns"/>
+                                    <attribute name="number_of_inputs" value="16"/>
+                                    <attribute name="datasheet" value="http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"/>
+                                    <attribute name="MF" value="Texas Instruments"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="2.65mm"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="DW0024A"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="device_class_L2" value="Logic ICs"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="ipc_land_pattern_name" value="SOIC127P1030X265-24"/>
+                                    <attribute name="MPN" value="CD74HC4067M96"/>
+                                    <attribute name="number_of_circuits" value="1"/>
+                                    <attribute name="min_supply_voltage" value="2V"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="quiescent_current" value="8uA"/>
+                                    <attribute name="logic_function_desc" value="Non-Inverting"/>
+                                    <attribute name="standoff_height" value="0.1mm"/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="number_of_outputs" value="1"/>
+                                    <attribute name="package" value="SOIC24"/>
+                                    <attribute name="mfg_package_ident_component_id" value="7ddb0374575ad7a2"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="TEXAS_INSTRUMENTS_CD74HC4067M96_0_1" package="TEXAS_INSTRUMENTS_CD74HC4067M96_1">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="COMMON_INPUT/OUTPUT"/>
+                                <connect gate="G$0" pad="2" pin="I7"/>
+                                <connect gate="G$0" pad="3" pin="I6"/>
+                                <connect gate="G$0" pad="4" pin="I5"/>
+                                <connect gate="G$0" pad="5" pin="I4"/>
+                                <connect gate="G$0" pad="6" pin="I3"/>
+                                <connect gate="G$0" pad="7" pin="I2"/>
+                                <connect gate="G$0" pad="8" pin="I1"/>
+                                <connect gate="G$0" pad="9" pin="I0"/>
+                                <connect gate="G$0" pad="10" pin="S0"/>
+                                <connect gate="G$0" pad="11" pin="S1"/>
+                                <connect gate="G$0" pad="12" pin="GND"/>
+                                <connect gate="G$0" pad="13" pin="S3"/>
+                                <connect gate="G$0" pad="14" pin="S2"/>
+                                <connect gate="G$0" pad="15" pin="!E!"/>
+                                <connect gate="G$0" pad="16" pin="I15"/>
+                                <connect gate="G$0" pad="17" pin="I14"/>
+                                <connect gate="G$0" pad="18" pin="I13"/>
+                                <connect gate="G$0" pad="19" pin="I12"/>
+                                <connect gate="G$0" pad="20" pin="I11"/>
+                                <connect gate="G$0" pad="21" pin="I10"/>
+                                <connect gate="G$0" pad="22" pin="I9"/>
+                                <connect gate="G$0" pad="23" pin="I8"/>
+                                <connect gate="G$0" pad="24" pin="VCC"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="Multiplexer Switch ICs Hi-Spd CMOS 16Ch Anl Mltplxr/Demltplxr"/>
+                                    <attribute name="ambient_temperature_range_low" value="-55°C"/>
+                                    <attribute name="mouser_part_number" value="595-CD74HC4067M96"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":30000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+125°C"/>
+                                    <attribute name="ambient_temperature_range_high" value="+125°C"/>
+                                    <attribute name="digikey_description" value="IC MUX/DEMUX 1X16 24SOIC"/>
+                                    <attribute name="device_class_L3" value="Multiplexers"/>
+                                    <attribute name="device_class_L1" value="Integrated Circuits (ICs)"/>
+                                    <attribute name="digikey_part_number" value="296-29408-1-ND"/>
+                                    <attribute name="max_supply_voltage" value="6V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="propagation_delay" value="6ns"/>
+                                    <attribute name="number_of_inputs" value="16"/>
+                                    <attribute name="datasheet" value="http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"/>
+                                    <attribute name="MF" value="Texas Instruments"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="2.65mm"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="DW0024A"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="device_class_L2" value="Logic ICs"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="ipc_land_pattern_name" value="SOIC127P1030X265-24"/>
+                                    <attribute name="MPN" value="CD74HC4067M96"/>
+                                    <attribute name="number_of_circuits" value="1"/>
+                                    <attribute name="min_supply_voltage" value="2V"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="quiescent_current" value="8uA"/>
+                                    <attribute name="logic_function_desc" value="Non-Inverting"/>
+                                    <attribute name="standoff_height" value="0.1mm"/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="number_of_outputs" value="1"/>
+                                    <attribute name="package" value="SOIC24"/>
+                                    <attribute name="mfg_package_ident_component_id" value="7ddb0374575ad7a2"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="TEXAS_INSTRUMENTS_CD74HC4067M96_0_2" package="TEXAS_INSTRUMENTS_CD74HC4067M96_2">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="COMMON_INPUT/OUTPUT"/>
+                                <connect gate="G$0" pad="2" pin="I7"/>
+                                <connect gate="G$0" pad="3" pin="I6"/>
+                                <connect gate="G$0" pad="4" pin="I5"/>
+                                <connect gate="G$0" pad="5" pin="I4"/>
+                                <connect gate="G$0" pad="6" pin="I3"/>
+                                <connect gate="G$0" pad="7" pin="I2"/>
+                                <connect gate="G$0" pad="8" pin="I1"/>
+                                <connect gate="G$0" pad="9" pin="I0"/>
+                                <connect gate="G$0" pad="10" pin="S0"/>
+                                <connect gate="G$0" pad="11" pin="S1"/>
+                                <connect gate="G$0" pad="12" pin="GND"/>
+                                <connect gate="G$0" pad="13" pin="S3"/>
+                                <connect gate="G$0" pad="14" pin="S2"/>
+                                <connect gate="G$0" pad="15" pin="!E!"/>
+                                <connect gate="G$0" pad="16" pin="I15"/>
+                                <connect gate="G$0" pad="17" pin="I14"/>
+                                <connect gate="G$0" pad="18" pin="I13"/>
+                                <connect gate="G$0" pad="19" pin="I12"/>
+                                <connect gate="G$0" pad="20" pin="I11"/>
+                                <connect gate="G$0" pad="21" pin="I10"/>
+                                <connect gate="G$0" pad="22" pin="I9"/>
+                                <connect gate="G$0" pad="23" pin="I8"/>
+                                <connect gate="G$0" pad="24" pin="VCC"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="Multiplexer Switch ICs Hi-Spd CMOS 16Ch Anl Mltplxr/Demltplxr"/>
+                                    <attribute name="ambient_temperature_range_low" value="-55°C"/>
+                                    <attribute name="mouser_part_number" value="595-CD74HC4067M96"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":30000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+125°C"/>
+                                    <attribute name="ambient_temperature_range_high" value="+125°C"/>
+                                    <attribute name="digikey_description" value="IC MUX/DEMUX 1X16 24SOIC"/>
+                                    <attribute name="device_class_L3" value="Multiplexers"/>
+                                    <attribute name="device_class_L1" value="Integrated Circuits (ICs)"/>
+                                    <attribute name="digikey_part_number" value="296-29408-1-ND"/>
+                                    <attribute name="max_supply_voltage" value="6V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="propagation_delay" value="6ns"/>
+                                    <attribute name="number_of_inputs" value="16"/>
+                                    <attribute name="datasheet" value="http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"/>
+                                    <attribute name="MF" value="Texas Instruments"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="2.65mm"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="DW0024A"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="device_class_L2" value="Logic ICs"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="ipc_land_pattern_name" value="SOIC127P1030X265-24"/>
+                                    <attribute name="MPN" value="CD74HC4067M96"/>
+                                    <attribute name="number_of_circuits" value="1"/>
+                                    <attribute name="min_supply_voltage" value="2V"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="quiescent_current" value="8uA"/>
+                                    <attribute name="logic_function_desc" value="Non-Inverting"/>
+                                    <attribute name="standoff_height" value="0.1mm"/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="number_of_outputs" value="1"/>
+                                    <attribute name="package" value="SOIC24"/>
+                                    <attribute name="mfg_package_ident_component_id" value="7ddb0374575ad7a2"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="TEXAS_INSTRUMENTS_CD74HC4067M96_0_3" package="TEXAS_INSTRUMENTS_CD74HC4067M96_3">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="COMMON_INPUT/OUTPUT"/>
+                                <connect gate="G$0" pad="2" pin="I7"/>
+                                <connect gate="G$0" pad="3" pin="I6"/>
+                                <connect gate="G$0" pad="4" pin="I5"/>
+                                <connect gate="G$0" pad="5" pin="I4"/>
+                                <connect gate="G$0" pad="6" pin="I3"/>
+                                <connect gate="G$0" pad="7" pin="I2"/>
+                                <connect gate="G$0" pad="8" pin="I1"/>
+                                <connect gate="G$0" pad="9" pin="I0"/>
+                                <connect gate="G$0" pad="10" pin="S0"/>
+                                <connect gate="G$0" pad="11" pin="S1"/>
+                                <connect gate="G$0" pad="12" pin="GND"/>
+                                <connect gate="G$0" pad="13" pin="S3"/>
+                                <connect gate="G$0" pad="14" pin="S2"/>
+                                <connect gate="G$0" pad="15" pin="!E!"/>
+                                <connect gate="G$0" pad="16" pin="I15"/>
+                                <connect gate="G$0" pad="17" pin="I14"/>
+                                <connect gate="G$0" pad="18" pin="I13"/>
+                                <connect gate="G$0" pad="19" pin="I12"/>
+                                <connect gate="G$0" pad="20" pin="I11"/>
+                                <connect gate="G$0" pad="21" pin="I10"/>
+                                <connect gate="G$0" pad="22" pin="I9"/>
+                                <connect gate="G$0" pad="23" pin="I8"/>
+                                <connect gate="G$0" pad="24" pin="VCC"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="Multiplexer Switch ICs Hi-Spd CMOS 16Ch Anl Mltplxr/Demltplxr"/>
+                                    <attribute name="ambient_temperature_range_low" value="-55°C"/>
+                                    <attribute name="mouser_part_number" value="595-CD74HC4067M96"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="max_junction_temp" value="+150°C"/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":30000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+125°C"/>
+                                    <attribute name="ambient_temperature_range_high" value="+125°C"/>
+                                    <attribute name="digikey_description" value="IC MUX/DEMUX 1X16 24SOIC"/>
+                                    <attribute name="device_class_L3" value="Multiplexers"/>
+                                    <attribute name="device_class_L1" value="Integrated Circuits (ICs)"/>
+                                    <attribute name="digikey_part_number" value="296-29408-1-ND"/>
+                                    <attribute name="max_supply_voltage" value="6V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="propagation_delay" value="6ns"/>
+                                    <attribute name="number_of_inputs" value="16"/>
+                                    <attribute name="datasheet" value="http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"/>
+                                    <attribute name="MF" value="Texas Instruments"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"SOIC_narrow","params":{"N":{"nom":24,"long name":"Number of leads","min":null,"max":null,"short name":"N","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":2650000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":100000,"max":300000,"short name":"A1","type":"measurement"},"A2":{"nom":false,"long name":"Package height","min":false,"max":2550000,"short name":"A2","type":"measurement"},"D":{"nom":false,"long name":"Package length","min":15200000,"max":15600000,"short name":"D","type":"measurement"},"E":{"nom":false,"long name":"Width w/ leads","min":9970000,"max":10630000,"short name":"E","type":"measurement"},"E1":{"nom":false,"long name":"Package width","min":7400000,"max":7600000,"short name":"E1","type":"measurement"},"B":{"nom":false,"long name":"Lead width","min":310000,"max":510000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":200000,"max":330000,"short name":"C","type":"measurement"},"e":{"nom":1270000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"L":{"nom":false,"long name":"Lead foot length","min":400000,"max":1270000,"short name":"L","type":"measurement"},"PHI":{"nom":false,"long name":"Lead foot angle","min":0,"max":8000000,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="2.65mm"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="DW0024A"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="device_class_L2" value="Logic ICs"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="ipc_land_pattern_name" value="SOIC127P1030X265-24"/>
+                                    <attribute name="MPN" value="CD74HC4067M96"/>
+                                    <attribute name="number_of_circuits" value="1"/>
+                                    <attribute name="min_supply_voltage" value="2V"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="quiescent_current" value="8uA"/>
+                                    <attribute name="logic_function_desc" value="Non-Inverting"/>
+                                    <attribute name="standoff_height" value="0.1mm"/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="number_of_outputs" value="1"/>
+                                    <attribute name="package" value="SOIC24"/>
+                                    <attribute name="mfg_package_ident_component_id" value="7ddb0374575ad7a2"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
