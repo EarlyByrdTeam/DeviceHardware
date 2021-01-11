@@ -1014,6 +1014,46 @@ design rules under a new name.</description>
 <contactref element="U7" pad="10"/>
 <wire x1="-5.08" y1="-19.05" x2="23.24" y2="43.815" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="N$19">
+<contactref element="JP5" pad="4"/>
+<contactref element="U5" pad="10"/>
+<wire x1="-5.08" y1="-11.43" x2="35.94" y2="18.415" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="JP5" pad="3"/>
+<contactref element="U5" pad="11"/>
+<wire x1="-7.62" y1="-11.43" x2="35.94" y2="17.145" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="JP5" pad="2"/>
+<contactref element="U5" pad="14"/>
+<wire x1="-10.16" y1="-11.43" x2="45.34" y2="17.145" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$22">
+<contactref element="JP5" pad="1"/>
+<contactref element="U5" pad="13"/>
+<wire x1="-12.7" y1="-11.43" x2="45.34" y2="15.875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$23">
+<contactref element="U2" pad="10"/>
+<contactref element="JP4" pad="4"/>
+<wire x1="-5.08" y1="-3.81" x2="52.45" y2="17.145" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$24">
+<contactref element="U2" pad="11"/>
+<contactref element="JP4" pad="3"/>
+<wire x1="-7.62" y1="-3.81" x2="52.45" y2="15.875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$25">
+<contactref element="U2" pad="14"/>
+<contactref element="JP4" pad="2"/>
+<wire x1="-10.16" y1="-3.81" x2="61.85" y2="15.875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="U2" pad="13"/>
+<contactref element="JP4" pad="1"/>
+<wire x1="-12.7" y1="-3.81" x2="61.85" y2="14.605" width="0" layer="19" extent="1-1"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
