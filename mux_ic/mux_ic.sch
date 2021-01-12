@@ -1199,13 +1199,13 @@ Created by Upverter.com</description>
 <part name="U6" library="Texas Instruments - CD74HC4067M96" deviceset="TEXAS_INSTRUMENTS_CD74HC4067M96" device="TEXAS_INSTRUMENTS_CD74HC4067M96_0_0"/>
 <part name="U7" library="Texas Instruments - CD74HC4067M96" deviceset="TEXAS_INSTRUMENTS_CD74HC4067M96" device="TEXAS_INSTRUMENTS_CD74HC4067M96_0_0"/>
 <part name="JP1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2W" device="" package3d_urn="urn:adsk.eagle:package:15456/1"/>
-<part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="JP3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 <part name="JP4" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device="" package3d_urn="urn:adsk.eagle:package:15463/1"/>
 <part name="JP5" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device="" package3d_urn="urn:adsk.eagle:package:15463/1"/>
 <part name="JP6" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device="" package3d_urn="urn:adsk.eagle:package:15463/1"/>
 <part name="JP7" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device="" package3d_urn="urn:adsk.eagle:package:15463/1"/>
 <part name="JP8" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP8Q" device="" package3d_urn="urn:adsk.eagle:package:15461/1"/>
+<part name="JP2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -1227,10 +1227,6 @@ Created by Upverter.com</description>
 <instance part="JP1" gate="1" x="7.62" y="177.8" smashed="yes">
 <attribute name="NAME" x="3.81" y="177.8" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="13.335" y="177.8" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="JP2" gate="A" x="78.74" y="144.78" smashed="yes">
-<attribute name="NAME" x="77.47" y="144.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="84.455" y="144.78" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="JP3" gate="A" x="-139.7" y="215.9" smashed="yes">
 <attribute name="NAME" x="-140.97" y="215.9" size="1.778" layer="95" rot="R90"/>
@@ -1255,6 +1251,10 @@ Created by Upverter.com</description>
 <instance part="JP8" gate="B" x="-228.6" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="-223.52" y="58.42" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-223.52" y="83.185" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="JP2" gate="A" x="114.3" y="-15.24" smashed="yes">
+<attribute name="NAME" x="113.03" y="-15.24" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="120.015" y="-15.24" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -1620,8 +1620,12 @@ Created by Upverter.com</description>
 <segment>
 <pinref part="U5" gate="G$0" pin="COMMON_INPUT/OUTPUT"/>
 <wire x1="78.74" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="1"/>
-<wire x1="78.74" y1="96.52" x2="78.74" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="96.52" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="121.92" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="121.92" x2="22.86" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="200.66" x2="-137.16" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="200.66" x2="-137.16" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -1721,19 +1725,18 @@ Created by Upverter.com</description>
 <segment>
 <pinref part="U6" gate="G$0" pin="COMMON_INPUT/OUTPUT"/>
 <wire x1="76.2" y1="5.08" x2="81.28" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="81.28" y1="5.08" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="JP3" gate="A" pin="2"/>
-<wire x1="-137.16" y1="213.36" x2="-137.16" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="195.58" x2="-58.42" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="195.58" x2="-58.42" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="-66.04" x2="-68.58" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$0" pin="COMMON_INPUT/OUTPUT"/>
 <wire x1="-68.58" y1="-66.04" x2="-68.58" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-66.04" x2="-58.42" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-93.98" x2="114.3" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-93.98" x2="114.3" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-93.98" x2="114.3" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="114.3" y1="-25.4" x2="114.3" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="5.08" x2="81.28" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-25.4" x2="114.3" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="114.3" y="-25.4"/>
 </segment>
 </net>
 <net name="N$11" class="0">
