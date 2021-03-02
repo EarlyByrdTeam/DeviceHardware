@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-03-02T14:39:05Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "mux_ic"
+        },
+        "Owner": "Godwyll Aikins <gaikins2015@my.fit.edu>",
+        "Size": {
+            "X": 50.8,
+            "Y": 66.04
+        }
+    }
+}
