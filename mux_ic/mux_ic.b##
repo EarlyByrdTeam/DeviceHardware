@@ -576,12 +576,12 @@ design rules under a new name.</description>
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="50mil"/>
+<param name="RoutingGrid" value="12.5mil"/>
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="0"/>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.1" value="-"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -596,7 +596,7 @@ design rules under a new name.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="|"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -988,7 +988,7 @@ design rules under a new name.</description>
 <wire x1="41.4528" y1="23.1648" x2="48.26" y2="24.13" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="49.7332" x2="21.6408" y2="31.3944" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$3">
+<signal name="MUX_RX1_COMMON">
 <contactref element="MUX_RX1" pad="1"/>
 <contactref element="MUX_RX" pad="1"/>
 <wire x1="2.54" y1="60.96" x2="9.144" y2="60.96" width="0.508" layer="1"/>
@@ -1012,7 +1012,7 @@ design rules under a new name.</description>
 <via x="46.0248" y="52.8828" extent="1-16" drill="0.4"/>
 <wire x1="46.0248" y1="52.8828" x2="44.0436" y2="54.864" width="0.508" layer="1"/>
 </signal>
-<signal name="N$4">
+<signal name="MUX_RX2_COMMON">
 <contactref element="MUX_RX2" pad="1"/>
 <contactref element="MUX_RX" pad="2"/>
 <wire x1="2.54" y1="63.5" x2="5.2324" y2="63.5" width="0.508" layer="16"/>
@@ -1162,7 +1162,7 @@ design rules under a new name.</description>
 <wire x1="29.1582" y1="15.0114" x2="29.082" y2="14.9352" width="0.635" layer="1"/>
 <wire x1="29.082" y1="14.9352" x2="27.8892" y2="14.9352" width="0.635" layer="1"/>
 </signal>
-<signal name="N$5">
+<signal name="MUX_TX2_COMMON">
 <contactref element="MUX_TX1" pad="1"/>
 <contactref element="MUX_TX2" pad="1"/>
 <contactref element="MUX_TX" pad="1"/>
@@ -1172,7 +1172,7 @@ design rules under a new name.</description>
 <wire x1="29.1582" y1="51.0032" x2="26.3642" y2="53.7972" width="0.508" layer="1"/>
 <wire x1="26.3642" y1="53.7972" x2="15.0104" y2="53.7972" width="0.508" layer="1"/>
 </signal>
-<signal name="N$11">
+<signal name="MUX_TX1_S0">
 <contactref element="MUX_TX1_CTL" pad="4"/>
 <contactref element="MUX_TX1" pad="10"/>
 <wire x1="2.54" y1="48.26" x2="25.1968" y2="48.26" width="0.508" layer="16"/>
@@ -1182,7 +1182,7 @@ design rules under a new name.</description>
 <wire x1="29.1582" y1="39.5732" x2="27.6352" y2="39.5732" width="0.508" layer="1"/>
 <wire x1="27.6352" y1="39.5732" x2="25.2984" y2="41.91" width="0.508" layer="1"/>
 </signal>
-<signal name="N$12">
+<signal name="MUX_TX1_S1">
 <contactref element="MUX_TX1" pad="11"/>
 <contactref element="MUX_TX1_CTL" pad="3"/>
 <wire x1="23.9268" y1="44.6532" x2="21.1836" y2="44.6532" width="0.508" layer="16"/>
@@ -1194,7 +1194,7 @@ design rules under a new name.</description>
 <wire x1="29.1582" y1="38.3032" x2="27.2288" y2="38.3032" width="0.508" layer="1"/>
 <wire x1="27.2288" y1="38.3032" x2="23.9268" y2="41.6052" width="0.508" layer="1"/>
 </signal>
-<signal name="N$13">
+<signal name="MUX_TX1_S2">
 <contactref element="MUX_TX1_CTL" pad="2"/>
 <contactref element="MUX_TX1" pad="14"/>
 <wire x1="2.54" y1="43.18" x2="35.9156" y2="43.18" width="0.508" layer="16"/>
@@ -1203,7 +1203,7 @@ design rules under a new name.</description>
 <wire x1="38.5582" y1="38.3032" x2="40.7924" y2="38.3032" width="0.508" layer="1"/>
 <wire x1="40.7924" y1="38.3032" x2="40.8432" y2="38.2524" width="0.508" layer="1"/>
 </signal>
-<signal name="N$14">
+<signal name="MUX_TX1_S3">
 <contactref element="MUX_TX1_CTL" pad="1"/>
 <contactref element="MUX_TX1" pad="13"/>
 <wire x1="2.54" y1="40.64" x2="33.274" y2="40.64" width="0.508" layer="16"/>
@@ -1213,7 +1213,7 @@ design rules under a new name.</description>
 <wire x1="38.5582" y1="37.0332" x2="38.7096" y2="36.8818" width="0.508" layer="1"/>
 <wire x1="38.7096" y1="36.8818" x2="38.7096" y2="35.3568" width="0.508" layer="1"/>
 </signal>
-<signal name="N$15">
+<signal name="MUX_TX2_S3">
 <contactref element="MUX_TX2_CTL" pad="1"/>
 <contactref element="MUX_TX2" pad="13"/>
 <wire x1="2.54" y1="27.94" x2="14.224" y2="27.94" width="0.508" layer="16"/>
@@ -1222,7 +1222,7 @@ design rules under a new name.</description>
 <wire x1="21.6164" y1="37.0332" x2="21.6408" y2="37.0088" width="0.508" layer="1"/>
 <wire x1="21.6408" y1="37.0088" x2="21.6408" y2="35.3568" width="0.508" layer="1"/>
 </signal>
-<signal name="N$16">
+<signal name="MUX_TX2_S2">
 <contactref element="MUX_TX2_CTL" pad="2"/>
 <contactref element="MUX_TX2" pad="14"/>
 <wire x1="2.54" y1="30.48" x2="4.572" y2="30.48" width="0.508" layer="1"/>
@@ -1233,21 +1233,21 @@ design rules under a new name.</description>
 <wire x1="21.6164" y1="38.3032" x2="23.114" y2="38.3032" width="0.508" layer="1"/>
 <wire x1="23.114" y1="38.3032" x2="24.384" y2="37.0332" width="0.508" layer="1"/>
 </signal>
-<signal name="N$17">
+<signal name="MUX_TX2_S1">
 <contactref element="MUX_TX2_CTL" pad="3"/>
 <contactref element="MUX_TX2" pad="11"/>
 <wire x1="12.2164" y1="38.3032" x2="8.7376" y2="38.3032" width="0.508" layer="1"/>
 <wire x1="3.4544" y1="33.02" x2="2.54" y2="33.02" width="0.508" layer="1"/>
 <wire x1="8.7376" y1="38.3032" x2="3.4544" y2="33.02" width="0.508" layer="1"/>
 </signal>
-<signal name="N$18">
+<signal name="MUX_TX2_S0">
 <contactref element="MUX_TX2_CTL" pad="4"/>
 <contactref element="MUX_TX2" pad="10"/>
 <wire x1="12.2164" y1="39.5732" x2="8.3312" y2="39.5732" width="0.508" layer="1"/>
 <wire x1="4.318" y1="35.56" x2="2.54" y2="35.56" width="0.508" layer="1"/>
 <wire x1="8.3312" y1="39.5732" x2="4.318" y2="35.56" width="0.508" layer="1"/>
 </signal>
-<signal name="N$19">
+<signal name="MUX_RX2_S0">
 <contactref element="MUX_RX2_CTL" pad="4"/>
 <contactref element="MUX_RX2" pad="10"/>
 <wire x1="2.54" y1="22.86" x2="3.2004" y2="22.86" width="0.508" layer="1"/>
@@ -1255,7 +1255,7 @@ design rules under a new name.</description>
 <wire x1="12.2164" y1="17.5514" x2="12.191" y2="17.526" width="0.508" layer="1"/>
 <wire x1="12.191" y1="17.526" x2="8.5344" y2="17.526" width="0.508" layer="1"/>
 </signal>
-<signal name="N$20">
+<signal name="MUX_RX2_S1">
 <contactref element="MUX_RX2_CTL" pad="3"/>
 <contactref element="MUX_RX2" pad="11"/>
 <wire x1="2.54" y1="20.32" x2="3.302" y2="20.32" width="0.508" layer="1"/>
@@ -1264,7 +1264,7 @@ design rules under a new name.</description>
 <wire x1="12.2164" y1="16.2814" x2="10.0838" y2="16.2814" width="0.508" layer="1"/>
 <wire x1="10.0838" y1="16.2814" x2="10.0584" y2="16.3068" width="0.508" layer="1"/>
 </signal>
-<signal name="N$21">
+<signal name="MUX_RX2_S2">
 <contactref element="MUX_RX2_CTL" pad="2"/>
 <contactref element="MUX_RX2" pad="14"/>
 <wire x1="2.54" y1="17.78" x2="3.2512" y2="17.78" width="0.508" layer="1"/>
@@ -1275,7 +1275,7 @@ design rules under a new name.</description>
 <wire x1="21.6164" y1="16.2814" x2="23.3426" y2="16.2814" width="0.508" layer="1"/>
 <wire x1="23.3426" y1="16.2814" x2="24.2316" y2="15.3924" width="0.508" layer="1"/>
 </signal>
-<signal name="N$22">
+<signal name="MUX_RX2_S3">
 <contactref element="MUX_RX2_CTL" pad="1"/>
 <contactref element="MUX_RX2" pad="13"/>
 <wire x1="2.54" y1="15.24" x2="4.2164" y2="13.5636" width="0.508" layer="16"/>
@@ -1284,7 +1284,7 @@ design rules under a new name.</description>
 <wire x1="21.6164" y1="15.0114" x2="21.6408" y2="14.987" width="0.508" layer="1"/>
 <wire x1="21.6408" y1="14.987" x2="21.6408" y2="13.5636" width="0.508" layer="1"/>
 </signal>
-<signal name="N$23">
+<signal name="MUX_RX1_S0">
 <contactref element="MUX_RX1" pad="10"/>
 <contactref element="MUX_RX1_CTL" pad="4"/>
 <wire x1="2.54" y1="10.16" x2="23.4188" y2="10.16" width="0.508" layer="1"/>
@@ -1293,7 +1293,7 @@ design rules under a new name.</description>
 <wire x1="29.1582" y1="17.5514" x2="27.1526" y2="17.5514" width="0.508" layer="1"/>
 <wire x1="27.1526" y1="17.5514" x2="25.4508" y2="15.8496" width="0.508" layer="1"/>
 </signal>
-<signal name="N$24">
+<signal name="MUX_RX1_S1">
 <contactref element="MUX_RX1" pad="11"/>
 <contactref element="MUX_RX1_CTL" pad="3"/>
 <wire x1="2.54" y1="7.62" x2="22.86" y2="7.62" width="0.508" layer="1"/>
@@ -1302,7 +1302,7 @@ design rules under a new name.</description>
 <wire x1="29.1582" y1="16.2814" x2="27.559" y2="16.2814" width="0.508" layer="1"/>
 <wire x1="27.559" y1="16.2814" x2="26.9748" y2="15.6972" width="0.508" layer="1"/>
 </signal>
-<signal name="N$25">
+<signal name="MUX_RX1_S2">
 <contactref element="MUX_RX1" pad="14"/>
 <contactref element="MUX_RX1_CTL" pad="2"/>
 <wire x1="2.54" y1="5.08" x2="38.4556" y2="5.08" width="0.508" layer="1"/>
@@ -1312,7 +1312,7 @@ design rules under a new name.</description>
 <wire x1="38.5582" y1="16.2814" x2="40.8178" y2="16.2814" width="0.508" layer="1"/>
 <wire x1="40.8178" y1="16.2814" x2="40.8432" y2="16.3068" width="0.508" layer="1"/>
 </signal>
-<signal name="N$26">
+<signal name="MUX_RX1_S3">
 <contactref element="MUX_RX1" pad="13"/>
 <contactref element="MUX_RX1_CTL" pad="1"/>
 <wire x1="2.54" y1="2.54" x2="27.9908" y2="2.54" width="0.508" layer="16"/>
